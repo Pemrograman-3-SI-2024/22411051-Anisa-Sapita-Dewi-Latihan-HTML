@@ -1,0 +1,53 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    background-color: rgb(230, 234, 222);
+}
+.title1 {
+    color: green;
+}
+
+.my-button {
+    background-color: green;
+    border: none;
+    /* atas, kanan, bawah, kiri */
+    /* padding: 1em 4em 8em 12em; */
+    padding: 0.7em 1.3em;
+    /* padding-top: 10em;
+    padding-left: 10em*/
+    border-radius: 22px;
+    color: white;
+
+}
+
+.outline-button {
+    border: 1px solid green;
+    padding: 0.7em 1.3em;
+    border-radius: 20px;
+    background-color: white;
+    color: green;
+}
+
+.outline-button:hover{
+    background-color:green;
+    color: white;
+    padding; 10em;
+}
+
+.my-table {
+    border: none;
+    border-collapse: collapse;
+}
+
+.my-table td {
+    padding: 1em;
+}
+
+.my-table tr:nth-child(even) {
+    background-color: rgb(170, 228, 170);
+}
+
+.my-card {
+    width: 20em;
+    background-color:rgb(170, 228, 170);
+}
